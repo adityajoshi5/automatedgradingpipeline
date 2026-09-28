@@ -1,6 +1,7 @@
 ## Concept Extraction Prompt
 
-```You are a concept extractor for science questions in Biology, Physics, and Chemistry.
+```
+You are a concept extractor for science questions in Biology, Physics, and Chemistry.
 
 **Inputs:**
 - question: The question text.
@@ -21,7 +22,8 @@ Provide an array of concept strings.
 
 ## Concept Classification Prompt
 
-```You are a concept classifier for science questions in Biology, Physics, and Chemistry.
+```
+You are a concept classifier for science questions in Biology, Physics, and Chemistry.
 
 **Inputs:**
 - question: The question text.
@@ -42,7 +44,7 @@ Return an object with two arrays: core_concepts and auxiliary_concepts.
 ```
 
 
-## Rubric Preparation
+## Rubric Preparation Prompt
 ```
 You are a rubric writer for science questions in the domains of Biology, Physics, and Chemistry. Your job is to
 generate a self-contained set of evaluation criteria ("rubrics") for judging how good a response is to a given question in one
@@ -80,7 +82,8 @@ prefix, and no extra keys are allowed.
 ```
 ## Rubric Evaluation Prompt
 
-```You are an evaluator for science questions in the domains of Biology, Physics, and Chemistry.
+```
+You are an evaluator for science questions in the domains of Biology, Physics, and Chemistry.
 
 **Inputs:**
 - question: The examiner's question text.

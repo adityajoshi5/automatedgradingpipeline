@@ -1,5 +1,5 @@
 ## Concept Extraction Prompt
-
+```
 You are a concept extractor for science questions in Biology, Physics, and Chemistry.
 
 **Inputs:**
@@ -17,7 +17,7 @@ Avoid connectors or generic words. Avoid duplicates.
 
 **Output:**
 Provide an array of concept strings.
-
+```
 
 ## Concept Classification Prompt
 ```
